@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* -------------------------
+   🌸 INPUT FIELDS
+-------------------------- */
+.input {
+  @apply w-full p-2 border border-gray-300 rounded bg-white placeholder-gray-400 text-gray-700 focus:outline-none focus:ring-2 focus:ring-[#a293cb];
+}
+
+/* -------------------------
+   💜 MAIN BUTTON
+-------------------------- */
+.btn-main {
+  @apply bg-[#a293cb] hover:bg-[#8a7db3] text-white font-semibold py-2 px-4 rounded transition duration-300;
+}
+
+/* -------------------------
+   🟢 LIGHT BUTTON (Dashboard etc.)
+-------------------------- */
+.btn-light {
+  @apply bg-[#c5dcf0] hover:bg-[#b0cbe4] text-black font-medium py-2 px-4 rounded;
+}
+
+/* -------------------------
+   🔍 GOOGLE LOGIN BUTTON
+-------------------------- */
+.btn-google {
+  @apply flex items-center justify-center gap-2 py-2 px-4 rounded bg-white border text-black hover:shadow;
+}
+
+/* -------------------------
+   📘 SIDEBAR BUTTON
+-------------------------- */
+.sidebar-btn {
+  @apply block w-full py-2 px-3 rounded bg-white text-left hover:bg-[#c5dcf0] font-medium;
+}
+
+/* -------------------------
+   🎨 CUSTOM BACKGROUND COLORS
+-------------------------- */
+.bg-coca {
+  background-color: #cfcfcc;
+}
+
+.bg-coca-dark {
+  background-color: #cfa99e;
+}

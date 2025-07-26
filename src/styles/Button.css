@@ -1,0 +1,22 @@
+.button {
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  border: none;
+}
+
+.button-primary {
+  background-color: #a0c4ff;
+  color: white;
+}
+
+.button-accent {
+  background-color: #ffc6ff;
+  color: white;
+}
+
+.button:hover {
+  opacity: 0.9;
+}
